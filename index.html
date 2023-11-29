@@ -138,12 +138,15 @@
             <year>2007</year>
         </reference>
     </references>
-   <!--
-    <?php
-echo "Welcome to my headspace <br>";
-?> 
--->
-               
+   
+               <form action="upload.php" method="post" enctype="multipart/form-data">
+        Select file to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        
+        Description:
+        <input type="text" name="description" id="description" placeholder="Enter a description">
+    
+        <input type="submit" value="submit" name="submit">
 
 
                 <!--footer-->
